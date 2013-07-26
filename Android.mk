@@ -45,4 +45,7 @@ include $(BUILD_PREBUILT)
 
 endif
 
+# Superuser koush
+SUPERUSER_EMBEDDED := true
+
 include $(call first-makefiles-under,$(LOCAL_PATH))
