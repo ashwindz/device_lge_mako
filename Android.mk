@@ -48,8 +48,4 @@ endif
 # Superuser koush
 #SUPERUSER_EMBEDDED := true
 
-#Change toolchain to 4.9
-#Credits to sparksco
-TARGET_GCC_VERSION := 4.9
-
 include $(call first-makefiles-under,$(LOCAL_PATH))
